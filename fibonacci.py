@@ -23,7 +23,7 @@ def fibonacci(n):
         return 0
     elif n == 1:
         return 1
-    
+
     # These variables contain the previous 2 terms. 0 and 1 are
     # precalculated, since they are defined as part of the problem.
     n1 = 0
@@ -35,7 +35,7 @@ def fibonacci(n):
 
     # Progress through the Fibonacci sequence, starting at the 2nd term,
     # until we reach the end.
-    for i in range(n-1):
+    for i in range(n - 1):
         total = n1 + n2
         n1 = n2
         n2 = total
