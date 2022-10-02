@@ -3,7 +3,7 @@
 # until the user inputs the word "stop".
 
 while True:
-    i = input("What should I do? ")
+    i = input("what is the local sales tax? ")
     if i == "continue":
         print("Looping again...")
     elif i == "stop":
